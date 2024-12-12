@@ -2,7 +2,7 @@ import streamlit as st
 from docx import Document
 from spire.doc import Document as dct
 from spire.doc.common import *
-from langchain_openai import ChatOpenAI, AzureChatOpenAI
+from langchain_openai import AzureChatOpenAI
 import tempfile
 import pandas as pd
 import os
