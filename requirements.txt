@@ -46,8 +46,8 @@ mdurl==0.1.2
 multidict==6.0.5
 mypy-extensions==1.0.0
 numpy==1.26.4
-#openai==0.28.0
-openai>=1.26.0,<2.0.0
+openai==1.31.0
+#openai>=1.26.0,<2.0.0
 packaging==23.2
 pandas==2.2.0
 pillow==10.2.0
