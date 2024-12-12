@@ -20,7 +20,7 @@ dataclasses-json==0.6.4
 document==1.0
 docx2txt==0.8
 exceptiongroup==1.2.0
-faiss-cpu==1.7.4
+# faiss-cpu==1.7.4
 Flask==3.0.2
 Flask-RESTful==0.3.10
 Flask-SocketIO==5.3.6
