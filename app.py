@@ -19,9 +19,11 @@ load_dotenv()
 # Access the API key
 #OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 #OPENAI_API_ORG_KEY = os.getenv("OPENAI_API_ORG_KEY")
-azure_api_key = os.getenv("AZURE_API_KEY")
-azure_endpoint = os.getenv("AZURE_ENDPOINT")
+#azure_api_key = os.getenv("AZURE_API_KEY")
+#azure_endpoint = os.getenv("AZURE_ENDPOINT")
 
+azure_api_key = st.secrets["AZURE_API_KEY"]
+azure_endpoint = st.secrets["AZURE_ENDPOINT"]
 # Set the API key for OpenAI
 #openai.api_key = OPENAI_API_KEY
 #openai.organization = OPENAI_API_ORG_KEY
